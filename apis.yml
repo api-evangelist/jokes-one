@@ -1,0 +1,32 @@
+aid: jokes-one
+name: Jokes One
+description: "Joke of the day and large category of jokes accessible via REST API"
+url: https://jokes.one/api/joke/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Games & Comics"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Games And Comics
+  - Public APIs
+apis:
+  - name: Jokes One
+    description: "Joke of the day and large category of jokes accessible via REST API"
+    humanURL: https://jokes.one/api/joke/
+    baseURL: https://jokes.one/api/joke/
+    tags:
+      - Games And Comics
+    properties:
+      - type: Documentation
+        url: https://jokes.one/api/joke/
+common:
+  - type: Website
+    url: https://jokes.one/api/joke/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
