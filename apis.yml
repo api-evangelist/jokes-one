@@ -23,6 +23,8 @@ apis:
       - type: Documentation
         url: https://jokes.one/api/joke/
 common:
+  - type: DomainSecurity
+    url: security/jokes-one-domain-security.yml
   - type: Website
     url: https://jokes.one/api/joke/
   - type: PublicAPIsListing
