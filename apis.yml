@@ -33,13 +33,13 @@ x-category: "Games & Comics"
 x-tier: 3
 x-tier-reason: bulk-registered-from-public-apis
 tags:
-  - Games And Comics
   - Public APIs
+  - Jokes
+  - Humor
 apis:
   - name: Jokes One
     description: "Joke of the day and large category of jokes accessible via REST API"
     humanURL: https://jokes.one/api/joke/
-    baseURL: https://jokes.one/api/joke/
     tags:
       - Games And Comics
     properties:
@@ -55,3 +55,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-tags-removed:
+- Games And Comics
