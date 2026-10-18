@@ -40,7 +40,8 @@ apis:
   - name: Jokes One
     description: "Joke of the day and large category of jokes accessible via REST API"
     humanURL: https://jokes.one/api/joke/
-    tags:
+    tags: []
+    tags_raw:
       - Games And Comics
     properties:
       - type: Documentation
